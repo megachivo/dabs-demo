@@ -1,0 +1,12 @@
+# The main pipeline for gh_demo
+resources:
+  pipelines:
+    gh_demo_pipeline:
+      name: gh_demo_pipeline
+      target: gh_demo_${bundle.environment}
+      libraries:
+        - notebook:
+            path: ../src/dlt_pipeline.ipynb
+
+      configuration:
+        bundle.sourcePath: /Workspace/${workspace.file_path}/src
