@@ -12,7 +12,7 @@ resources:
 
       email_notifications:
         on_failure:
-          - kevin.romero@databricks.com
+          - jose.cisneros@databricks.com
 
       tasks:
         - task_key: notebook_task
