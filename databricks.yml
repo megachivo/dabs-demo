@@ -1,5 +1,6 @@
 # This is a Databricks asset bundle definition for gh_demo.
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+#
 bundle:
   name: gh_demo
 
